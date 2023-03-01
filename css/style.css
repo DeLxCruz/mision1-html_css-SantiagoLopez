@@ -1,13 +1,14 @@
-/* --- header --- */
-
-* {
-    transition: background ease-in .3s;
+html {
+    scroll-behavior: smooth;
 }
+
+/* --- header --- */
 
 .header {
     width: 100%;
     display: flex;
     background-color:rgb(20, 20, 84);
+    position: fixed;
 }
 
 .header__logotipo {
@@ -53,6 +54,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.header__nav--links:hover {
+    color: white;
+}
+
 /* --- inicio --- */
 
 .inicio {
@@ -89,6 +94,13 @@
     background-color: deeppink;
 }
 
+.inicio__btn:hover {
+    border: 1px solid deeppink;
+    background-color: white;
+    color: deeppink;
+    cursor: pointer;
+}
+
 /* --- acerca --- */
 
 .acerca {
@@ -117,6 +129,13 @@
     text-align: right;
     margin-bottom: 3.25rem;
     font-style: italic;
+}
+
+.acerca__bio--btn:hover {
+        border: 1px solid deeppink;
+    background-color: white;
+    color: deeppink;
+    cursor: pointer;
 }
 
 .acerca__bio--btn {
