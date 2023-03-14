@@ -1,0 +1,313 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- header --- */
+
+.header {
+    width: 100%;
+    display: flex;
+    background-color:rgb(20, 20, 84);
+    position: fixed;
+}
+
+.header__logotipo {
+    padding: 4px 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.header__logotipo--logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 250px;
+    object-fit: cover;
+    object-position: 20% 80%;
+}
+
+.header__logotipo--titulo {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-left: .75em;
+    width: max-content;
+}
+
+.header__nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.header__nav--lista{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__nav--links {
+    text-decoration: none;
+    color:deeppink;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header__nav--links:hover {
+    color: white;
+}
+
+/* --- inicio --- */
+
+.inicio {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(../assets/background__welcome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 66px);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inicio__titulo {
+    font-size: 6rem;
+    text-align: center;
+    width: min-content;
+    color: white;
+    font-weight: bolder;
+}
+
+.inicio__btn {
+    margin-top: 1em;
+    border: none;
+    text-align: center;
+    padding: 1rem 4.2rem;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: deeppink;
+}
+
+.inicio__btn:hover {
+    border: 1px solid deeppink;
+    background-color: white;
+    color: deeppink;
+    cursor: pointer;
+}
+
+/* --- acerca --- */
+
+.acerca {
+    padding: 1em;
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:rgb(194, 182, 174);
+    height: calc(100vh - 66px);
+}
+
+.acerca__bio--nombre {
+    font-weight: bolder;
+    text-align: right;
+    font-size: 1.2em;
+}
+.acerca__bio--cargo{
+    font-weight: bold;
+    text-align: right;
+    font-size: 0.8em;
+    margin-top: 4px;
+    margin-bottom: 3rem;
+}
+
+.acerca__bio--texto {
+    text-align: right;
+    margin-bottom: 3.25rem;
+    font-style: italic;
+}
+
+.acerca__bio--btn:hover {
+        border: 1px solid deeppink;
+    background-color: white;
+    color: deeppink;
+    cursor: pointer;
+}
+
+.acerca__bio--btn {
+    border: none;
+    text-align: center;
+    padding: 1rem 4.2rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: deeppink;
+}
+
+.acerca__img {
+    height: 400px;
+    justify-self: center;
+}
+
+.acerca__habilidades {
+    width: 100%;
+}
+
+.acerca__habilidades--titulo {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.acerca__habilidades--skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acerca__habilidades--skill1, .acerca__habilidades--skill2, .acerca__habilidades--skill3, .acerca__habilidades--skill4, .acerca__habilidades--skill5{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.acerca__habilidades--text {
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.acerca__habilidades--porcentaje {
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.acerca__habilidades--b1 {
+    width: 90%;
+    background-color: darkgray;
+    padding: 12px;
+}
+
+.acerca__habilidades--b2 {
+    width: 10%;
+    background-color: rgb(48, 47, 47);
+}
+
+.acerca__habilidades--b3{
+    width: 85%;
+    background-color: darkgray;
+    padding: 12px;
+}
+
+.acerca__habilidades--b4{
+    width: 15%;
+    background-color: rgb(48, 47, 47);
+}
+
+.acerca__habilidades--b5{
+    width: 80%;
+    background-color: darkgray;
+    padding: 12px;
+}
+
+.acerca__habilidades--b6{
+    width: 20%;
+    background-color: rgb(48, 47, 47);
+}
+
+.acerca__habilidades--b7{
+    width: 75%;
+    background-color: darkgray;
+    padding: 12px;
+}
+
+.acerca__habilidades--b8{
+    width: 25%;
+    background-color: rgb(48, 47, 47);
+}
+
+.acerca__habilidades--b9{
+    width: 60%;
+    background-color: darkgray;
+    padding: 12px;
+}
+
+.acerca__habilidades--b10{
+    width: 40%;
+    background-color: rgb(48, 47, 47);
+}
+
+/* --- servicios --- */
+
+.servicios {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    background-color:rgb(194, 182, 174);
+    height: calc(100vh - 66px);
+}
+
+.servicios__head--line {
+    border-color: deeppink;
+}
+
+.servicios__head--titulo {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.servicios__container {
+    padding: 6rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px 50px;
+}
+
+.servicios__container--serv {
+    text-align: center;
+}
+
+.servicios__container--img {
+    margin-bottom: 6px;
+}
+
+.servicios__container--titulo {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.servicios__container--text {
+    font-style: italic;
+}
+
+/* --- portafolio --- */
+
+.portafolio {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    background-color:rgb(194, 182, 174);
+    height: 100vh
+}
+
+.portafolio__head--line {
+    border-color: deeppink;
+}
+
+.portafolio__head--titulo {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.portafolio__container {
+    padding: 6rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
