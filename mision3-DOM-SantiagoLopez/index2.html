@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="font-['Inter']">
+
+    <header class="grid grid-cols-3 mt-[50px] mb-[40px]">
+        <a href="./index.html" class="ml-[35px] self-center"><img src="./assets/Union.svg" alt=""></a>
+        <h1 class="text-center font-bold text-[24px] leading-[48px]">Registro Personas</h1>
+    </header>
+
+    <main class="w-full flex justify-center">
+        <form action="" id="form" class="py-[10px] px-[20px] flex flex-col space-y-6">
+            <div class="flex justify-between">
+                <div>
+                    <label for="" class="block font-bold text-[16px] leading-[19.36px] mb-[5px]">Nombres</label>
+                    <input id="name" type="text" required class="w-[350px] h-[50px] px-[10px]  border-2 border-[#ED00D5] rounded-[10px]">
+                </div>
+                <div>
+                    <label for="" class="block font-bold text-[16px] leading-[19.36px] mb-[5px]">Apellidos</label>
+                    <input id="lastName" type="text" required class="w-[350px] h-[50px] px-[10px] border-2 border-[#ED00D5] rounded-[10px]">
+                </div>
+            </div>
+            <div class="flex space-x-6">
+                <div>
+                    <label for="" class="block font-bold text-[16px] leading-[19.36px] mb-[5px]">Area</label>
+                    <input id="area" type="text" required class="w-[300px] h-[50px] px-[10px] border-2 border-[#ED00D5] rounded-[10px]">
+                </div>
+                <div>
+                    <label for="" class="block font-bold text-[16px] leading-[19.36px] mb-[5px]">Usuario</label>
+                    <input id="user" type="text" required class="w-[300px] h-[50px] px-[10px] border-2 border-[#ED00D5] rounded-[10px]">
+                </div>
+                <div>
+                    <label for="" class="block font-bold text-[16px] leading-[19.36px] mb-[5px]">Edad</label>
+                    <input id="age" type="number" required class="w-[300px] h-[50px] px-[10px] border-2 border-[#ED00D5] rounded-[10px]">
+                </div>
+            </div>
+            <div>
+                <label for="" class="block font-bold text-[16px] leading-[19.36px] mb-[5px]">Dirección</label>
+                <input id="address" type="text" class="w-full h-[50px] px-[10px] border-2 border-[#ED00D5] rounded-[10px]">
+            </div>
+            <div>
+                <label for="" class="block font-bold text-[16px] leading-[19.36px] mb-[5px]">Email</label>
+                <input id="email" type="email" required class="w-full h-[50px] px-[10px] border-2 border-[#ED00D5] rounded-[10px]">
+            </div>
+            <div class="flex justify-center">
+                <button id="btnForm" type="submit" class="mt-[30px] bg-[#CC2233] py-[16px] px-[72px] rounded-[20px] font-bold text-[18px] leading-[21.78px] text-white">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

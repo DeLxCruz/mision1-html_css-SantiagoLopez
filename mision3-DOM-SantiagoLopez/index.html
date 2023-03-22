@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="grid grid-cols-[18%_82%] font-['Inter']">
+
+    <div class="bg-[#C9231B] h-screen"></div>
+
+    <main class="px-[50px]">
+
+        <header class="mt-[80px] grid grid-cols-3">
+            <h1 class="col-start-2 text-center font-bold text-[36px] leading-[48px]">Usuarios</h1>
+            <button id="btnNewUser" class="w-fit justify-self-center bg-[#CC2233] rounded-[20px] py-[14px] px-[68px] text-white font-bold text-[18px] leading-[21.78px]">Crear Usuario</button>
+        </header>
+
+        <div class="mt-[50px] flex space-x-10">
+            <h2 class="font-bold text-[24px] leading-[48px]">Buscar usuario</h2>
+            <input type="text" class="bg-[#F3F6FB] rounded-[20px] border-2 border-black text-center px-[14px]">
+        </div>
+
+        <table class="mt-[50px] border-2 text-center border-separate border-spacing-x-12">
+            <thead class="border-spacing-x-3 bg-[#F3F6FB]">
+                <tr class="border-2 ">
+                    <th>Area<img class="inline-block ml-[10px]" src="./assets/Vector.svg" alt=""></th>
+                    <th>Nombre<img class="inline-block ml-[10px]" src="./assets/Vector.svg" alt=""></th>
+                    <th>Usuario<img class="inline-block ml-[10px]" src="./assets/Vector.svg" alt=""></th>
+                    <th>Email<img class="inline-block ml-[10px]" src="./assets/Vector.svg" alt=""></th>
+                    <th>Edad<img class="inline-block ml-[10px]" src="./assets/Vector.svg" alt=""></th>
+                </tr>
+            </thead>
+            <tbody class="">
+                <tr class="">
+                    <td rowspan="3" class="">Docencia</td>
+                    <td class="">Yerson Gerbei Bastos Velandia</td>
+                    <td class="">yesewal767</td>
+                    <td class="">yesewal767@ovout.com</td>
+                    <td class="">22</td>
+                </tr>
+                <tr class="">
+                    <td>Yerson Gerbei Bastos Velandia</td>
+                    <td>yesewal767</td>
+                    <td>yesewal767@ovout.com</td>
+                    <td>22</td>
+                </tr>
+                <tr class="">
+                </tr>
+                <tr class="">
+                    <td rowspan="3" class="">Tecnologia</td>
+                    <td>Gabriel Jose Peña Jacome</td>
+                    <td>gajajope</td>
+                    <td>seyewal767@ovout.com</td>
+                    <td>28</td>
+                </tr>
+                <tr class="">
+                    <td>Gabriel Jose Peña Jacome</td>
+                    <td>gajajope</td>
+                    <td>seyewal767@ovout.com</td>
+                    <td>28</td>
+                </tr>
+                <tr class="">
+                    <td>Gabriel Jose Peña Jacome</td>
+                    <td>gajajope</td>
+                    <td>seyewal767@ovout.com</td>
+                    <td>28</td>
+                </tr>
+                <tr class="">
+                    <td rowspan="4" class="">Marketing</td>
+                    <td>Esteban Jose Garcia Tequendama</td>
+                    <td>eltequendama</td>
+                    <td>seyewal767@ovout.com</td>
+                    <td>32</td>
+                </tr>
+                <tr class="">
+                    <td>Esteban Jose Garcia Tequendama</td>
+                    <td>eltequendama</td>
+                    <td>seyewal767@ovout.com</td>
+                    <td>32</td>
+                </tr>
+                <tr class="">
+                    <td>Esteban Jose Garcia Tequendama</td>
+                    <td>eltequendama</td>
+                    <td>seyewal767@ovout.com</td>
+                    <td>32</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <script src="./main2.js"></script>
+</body>
+
+</html>
