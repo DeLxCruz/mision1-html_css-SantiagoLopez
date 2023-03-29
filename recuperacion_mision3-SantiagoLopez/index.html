@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body
+    class="flex w-full h-screen overflow-hidden min-[320px]:max-[600px]:flex-col min-[320px]:max-[600px]:items-center min-[320px]:max-[600px]:overflow-auto">
+
+    <section class="w-[55%] bg-[#191A24] grid place-items-center min-[320px]:max-[600px]:h-[200px] min-[320px]:max-[600px]:w-full">
+        <div
+            class="grid grid-cols-3 gap-x-4 px-12 min-[320px]:max-[600px]:grid-cols-none min-[320px]:max-[600px]:px-0 min-[320px]:max-[600px]:flex min-[320px]:max-[600px]:relative min-[320px]:max-[600px]:top-[-50px]">
+
+            <img class="h-full min-[320px]:max-[600px]:hidden" src="./assets/Rectangle 6.svg" alt="">
+            <img class="h-full min-[320px]:max-[600px]:hidden" src="./assets/Rectangle 7.svg" alt="">
+            <img class="h-full min-[320px]:max-[600px]:hidden" src="./assets/Rectangle 8.svg" alt="">
+
+            <img class="h-full min-[320px]:max-[600px]:hidden" src="./assets/Rectangle 11.svg" alt="">
+            <img class="h-full min-[320px]:max-[600px]:hidden" src="./assets/Rectangle 10.svg" alt="">
+            <img class="h-full min-[320px]:max-[600px]:hidden" src="./assets/Rectangle 9.svg" alt="">
+
+            <img class="h-full min-[320px]:max-[600px]:hidden" src="./assets/Rectangle 12.svg" alt="">
+            <img class="h-full min-[320px]:max-[600px]:hidden" src="./assets/Rectangle 13.svg" alt="">
+            <img class="h-full min-[320px]:max-[600px]:h-[250px] min-[320px]:max-[600px]:w-full min-[320px]:max-[600px]:object-cover"
+                src="./assets/Rectangle 14.svg" alt="">
+
+        </div>
+    </section>
+
+    <main
+        class="flex flex-col items-center w-[45%] min-[320px]:max-[600px]:px-[24px] min-[320px]:max-[600px]:py-[32px] min-[320px]:max-[600px]:w-full">
+
+        <div class="mt-[24px] flex flex-col space-y-2 min-[320px]:max-[600px]:w-full min-[320px]:max-[600px]:mt-0">
+            <div class="flex space-x-4 items-center">
+                <img src="./assets/Logo.svg" alt="">
+                <h1 class="text-[#3E334E] font-['Inter'] font-semibold text-[32px] leading-[32px]">Archint</h1>
+            </div>
+            <p class="text-[#3E334E] font-['Inter'] font-normal text-[18px] leading-[30px] w-[345px]">A new way to
+                experience real state in the infinite virtual space.</p>
+        </div>
+
+        <div class="p-[22px] font-['Inter'] text-[#3E334E]">
+            <h1 class="text-[28px] leading-[32px] font-semibold">Login</h1>
+            <form class="my-[32px] flex flex-col space-y-6" id="form">
+
+                <div class="flex flex-col">
+                    <label class="text-[16px] leading-[16px] font-semibold">Email</label>
+                    <input type="email" name="" id="email-ipt"
+                        class="mt-[8px] p-[16px] h-[50px] rounded-lg border border-[#AFA2C3]">
+                </div>
+                <div class="flex flex-col">
+                    <label class="text-[16px] leading-[16px] font-semibold">Usuario</label>
+                    <input type="text" id="user-ipt"
+                        class="mt-[8px] p-[16px] h-[50px] rounded-lg border border-[#AFA2C3]">
+                </div>
+
+                <div class="flex justify-between">
+                    <div class="flex space-x-2">
+                        <input type="checkbox" id="" checked class="accent-[#3E334E]">
+                        <p class="font-normal text-[16px] leading-[16px]">Remember me</p>
+                    </div>
+                    <a href="#" class="font-normal text-[16px] leading-[16px] underline decoration-solid">Forgot
+                        password?</a>
+                </div>
+
+                <div class="flex space-x-6">
+                    <button type="submit"
+                        class="bg-[#3E334E] p-[16px] w-[146px] text-[white] rounded-lg font-semibold text-[16px] leading-[16px]">Ingresar</button>
+                    <a href="#"
+                        class="p-[16px] w-[146px] border border-[#3E334E] font-semibold text-[16px] leading-[16px] rounded-lg text-center">Sign
+                        Up</a>
+                </div>
+
+                <div id="card-ctn"></div>
+
+            </form>
+
+            <div>
+                <p class="text-center mb-[16px]">Or, login with</p>
+                <div class="flex justify-between">
+                    <button
+                        class="py-[12px] px-[16px] rounded border border-[#AFA2C3] font-medium text-[14px] leading-[14px]">Facebook</button>
+                    <button
+                        class="py-[12px] px-[16px] rounded border border-[#AFA2C3] font-medium text-[14px] leading-[14px]">Linked
+                        In</button>
+                    <button
+                        class="py-[12px] px-[16px] rounded border border-[#AFA2C3] font-medium text-[14px] leading-[14px]">Google</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
